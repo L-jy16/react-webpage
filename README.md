@@ -11,7 +11,5 @@ npx create-react-app react-webpage
 
 ## 작업 순서
 - 필요없는 파일 삭제
-
-app.js
 - rafce : 기본 문법 나오기 --> 확장 프로그램 ES7 설치
 - 리액트 시작 : npm start
