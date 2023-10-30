@@ -1,0 +1,123 @@
+/* fonts */
+@import url('https://webfontworld.github.io/NexonLv1Gothic/NexonLv1Gothic.css');
+
+.nexon {
+    font-family: "NexonLv1Gothic";
+    font-weight: 400;
+}
+@import url('https://webfontworld.github.io/iropke/IropkeBatang.css');
+.IropkeBatang {
+    font-family: "IropkeBatang";
+    font-weight: 400px;
+}
+
+/* reset */
+/* 여백 초기화 */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+fieldset,
+form,
+legend,
+p,
+blockquote,
+th,
+tr,
+td,
+input,
+select,
+button,
+figure,
+figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+/* 폰트 초기화 */
+body,
+button,
+input,
+select,
+table,
+textarea {
+    font-family: "nanumSquareNeo", "Apple SD Gothic Neo", "Malgun Gothic", "맑은 고딕", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+/* border-box 초기화 */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+em {
+    font-style: normal;
+}
+li {
+    list-style: none;
+}
+.blind {
+    width: 0;
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -99999px;
+}
+.ir {
+    display: block;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -99999px;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+}
+img {
+    width: 100%;
+    vertical-align: top;
+}
+
+/* common */
+.container {
+    width: 1160px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.section {
+    padding: 120px 0;
+}
+.section > h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 1;
+}
+.section > p {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 70px;
+    text-align: center;
+}
